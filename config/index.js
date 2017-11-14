@@ -24,6 +24,9 @@ module.exports = {
       },
       '/api': {
         target: 'http://localhost:8080'
+      },
+      '/img/logo_molgenis_small.png' : {
+        target: 'http://localhost:8080'
       }
     },
     cssSourceMap: false
